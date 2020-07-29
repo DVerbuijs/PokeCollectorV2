@@ -59,6 +59,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PokeCollectorData\PokeCollectorData.csproj">
+      <Project>{769d07e0-2161-42e0-a1c2-602bf6785a50}</Project>
+      <Name>PokeCollectorData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PokeCollectorLogic\PokeCollectorLogic.csproj">
+      <Project>{99d711a2-135c-4132-8cc4-e96ff5157c66}</Project>
+      <Name>PokeCollectorLogic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PokeCollectorV2.csproj">
       <Project>{92754ab7-2a88-4c99-af21-723563252ec5}</Project>
       <Name>PokeCollectorV2</Name>
