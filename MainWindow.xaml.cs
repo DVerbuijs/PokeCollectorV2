@@ -24,5 +24,6 @@ namespace PokeCollectorV2
         {
             InitializeComponent();
         }
+        public static string message() { return "Hello PokeCollector V2"; }
     }
 }
