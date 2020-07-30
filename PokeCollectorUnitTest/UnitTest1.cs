@@ -17,23 +17,6 @@ namespace PokeCollectorUnitTest
      
 
         [TestMethod]
-        public void TestDataPackage()
-        {
-            PCDTestClass class1 = new PCDTestClass();
-            Assert.AreEqual("Pikachu", class1.Name);
-        }
-        [TestMethod]
-        public void TestLogicPackage()
-        {
-            PCDTestClass class1 = new PCDTestClass();
-            LogicPackageTestClass logicPackageTestClass = new LogicPackageTestClass();
-            logicPackageTestClass.ChangeName("Ditto", class1);
-            Assert.AreEqual("Ditto", class1.Name);
-            
-            
-        }
-
-        [TestMethod]
         public void TestSetImporter()
         {
             SetImporter importer = new SetImporter();
