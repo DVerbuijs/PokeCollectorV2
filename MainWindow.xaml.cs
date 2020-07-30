@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PokeCollectorLogic;
+using System.Configuration;
+using System.Collections.Specialized;
 
 namespace PokeCollectorV2
 {
@@ -22,7 +25,10 @@ namespace PokeCollectorV2
     {
         public MainWindow()
         {
-            InitializeComponent();
+           InitializeComponent();
+           string queuePath = ConfigurationManager.AppSettings.Get("CS").ToString();
+            Console.WriteLine(queuePath);
+
         }
         public static string message() { return "Hello PokeCollector V2"; }
     }

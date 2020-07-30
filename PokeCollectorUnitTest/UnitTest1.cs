@@ -3,6 +3,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PokeCollectorV2;
 using PokeCollectorData;
 using PokeCollectorLogic;
+
+using System.Configuration;
+using System.Collections.Specialized;
 namespace PokeCollectorUnitTest
 {
     [TestClass]
@@ -27,6 +30,9 @@ namespace PokeCollectorUnitTest
             LogicPackageTestClass logicPackageTestClass = new LogicPackageTestClass();
             logicPackageTestClass.ChangeName("Ditto", class1);
             Assert.AreEqual("Ditto", class1.Name);
+            Database database = new Database();
+            string table = database.MyProperty;
+            Assert.AreEqual("TCG", table);
         }
     }
 }

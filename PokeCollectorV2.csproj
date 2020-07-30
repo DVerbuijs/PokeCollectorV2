@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -97,6 +98,12 @@
   <ItemGroup>
     <Folder Include="Art\" />
     <Folder Include="GUI\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="PokeCollectorLogic\PokeCollectorLogic.csproj">
+      <Project>{99d711a2-135c-4132-8cc4-e96ff5157c66}</Project>
+      <Name>PokeCollectorLogic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

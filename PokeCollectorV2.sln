@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeCollectorV2", "PokeColl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeCollectorUnitTest", "PokeCollectorUnitTest\PokeCollectorUnitTest.csproj", "{A37F9433-493A-471E-AF86-A5946EEF09CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeCollectorData", "PokeCollectorData\PokeCollectorData.csproj", "{769D07E0-2161-42E0-A1C2-602BF6785A50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeCollectorData", "PokeCollectorData\PokeCollectorData.csproj", "{769D07E0-2161-42E0-A1C2-602BF6785A50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeCollectorLogic", "PokeCollectorLogic\PokeCollectorLogic.csproj", "{99D711A2-135C-4132-8CC4-E96FF5157C66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeCollectorLogic", "PokeCollectorLogic\PokeCollectorLogic.csproj", "{99D711A2-135C-4132-8CC4-E96FF5157C66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
