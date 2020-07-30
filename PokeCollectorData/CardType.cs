@@ -4,8 +4,9 @@ using System.Text;
 
 namespace PokeCollectorData
 {
-    public enum Type
+    public enum CardType
     {
+        NONE,
         Colorless,
         ColorlessE,
         Darkness,

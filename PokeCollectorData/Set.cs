@@ -6,6 +6,7 @@ namespace PokeCollectorData
 {
     public enum Set
     {
+        NONE,
         BaseSet,
         Jungle,
         Fossil,

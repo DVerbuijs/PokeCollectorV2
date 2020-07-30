@@ -6,11 +6,12 @@ namespace PokeCollectorData
 {
     public enum Rarity
     {
+        NONE,
         Common,
         Uncommon,
         Rare,
-        HolofoilRare,
-        UtraRare,
+        RareHolo,
+        UltraRare,
         SecretRare,
         Energy
     }
