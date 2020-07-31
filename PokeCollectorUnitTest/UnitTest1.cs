@@ -8,6 +8,10 @@ using System.Configuration;
 using System.Collections.Specialized;
 using PokeCollectorLogic.FileReader;
 using System.Windows.Documents;
+using PokeCollectorLogic.Database;
+using MongoDB.Bson;
+using MongoDB.Driver;
+
 
 namespace PokeCollectorUnitTest
 {
@@ -38,5 +42,6 @@ namespace PokeCollectorUnitTest
 
 
         }
+       
     }
 }

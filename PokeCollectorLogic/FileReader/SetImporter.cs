@@ -25,8 +25,8 @@ namespace PokeCollectorLogic.FileReader
                     Rarity rarity;
                     Set set;
                     Enum.TryParse(values[2], out type);
-                    Enum.TryParse(values[3],out rarity);
-                    Enum.TryParse(values[4],out set);
+                    Enum.TryParse(values[3], out rarity);
+                    Enum.TryParse(values[4], out set);
                     card.Type = type;
                     card.Rarity = rarity;
                     card.Set = set;
