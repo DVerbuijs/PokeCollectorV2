@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using MongoDB.Bson;
 namespace PokeCollectorData
 {
     public class Card
     {
+        public ObjectId Id { get; set; }
         public int Number { get; set; }
         public string Name { get; set; }
         public CardType Type { get; set; }
